@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useContext } from "react";
 import { CartContext } from "../context/cart-context";
 
 const Hoodies = (props) => {
@@ -7,7 +7,7 @@ const Hoodies = (props) => {
   const addToCart = () => {
     dispatch({
       type: "ADD_CART",
-      payload: [props.name],
+      payload: props.name,
     });
   };
 
