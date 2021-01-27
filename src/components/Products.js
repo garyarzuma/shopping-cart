@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Hoodies from "./Hoodies";
 import colorBlockHoodie from "../images/color-block-hoodie.jpg";
 import bubblegum from "../images/bubblegum-block-hoodie.jpg";
