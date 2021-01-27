@@ -24,5 +24,17 @@ nav {
   list-style: none;
 }
 
-.hoodie-image {
+li {
+  display: flex;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-number {
+  margin-left: 5px;
+  text-decoration: none;
 }
