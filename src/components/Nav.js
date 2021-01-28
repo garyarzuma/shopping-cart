@@ -19,7 +19,7 @@ const Nav = () => {
     <nav>
       <h3>Logo</h3>
       <ul className="nav-links">
-        <Link to="/">
+        <Link to="/home">
           <li>Home</li>
         </Link>
         <Link to="/products">
