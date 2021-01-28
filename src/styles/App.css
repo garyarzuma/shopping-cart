@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  margin-left: 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -35,7 +43,7 @@ a:visited {
 }
 
 .cart-number {
-  margin-left: 5px;
+  margin-left: 15px;
   text-decoration: none;
 }
 

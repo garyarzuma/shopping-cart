@@ -1,6 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/cart-context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   const [totalQty, setTotalQty] = useState(0);
@@ -17,7 +19,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <h3>Logo</h3>
+      <h3>Teddy Stale</h3>
       <ul className="nav-links">
         <Link to="/shopping-cart">
           <li>Home</li>
@@ -27,7 +29,7 @@ const Nav = () => {
         </Link>
         <Link to="/shopping-cart/cart">
           <li>
-            <span>Shopping Cart</span>
+            <FontAwesomeIcon icon={faShoppingCart} size="lg" />
             <div className="cart-number">{totalQty}</div>
           </li>
         </Link>

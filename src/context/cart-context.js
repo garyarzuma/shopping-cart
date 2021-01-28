@@ -20,8 +20,8 @@ const initialState = {
     { qty: 0, name: "THREE PANEL HOODIE", price: 79, url: threepanel },
     { qty: 0, name: "PUFFY PAINT HOODIE", price: 80, url: puffypaint },
     { qty: 0, name: "THE BIG ASS CHENILLE HOODIE", price: 85, url: chenille },
-    { qty: 0, name: "TF X SPONGEBOB EMBROIDERED HOODIE", price: 90, url: tfx },
-    { qty: 0, name: "TF X SPONGEBOB COLOR BLOCK HOODIE", price: 95, url: tfxb },
+    { qty: 0, name: "TS X SPONGEBOB EMBROIDERED HOODIE", price: 90, url: tfx },
+    { qty: 0, name: "TS X SPONGEBOB COLOR BLOCK HOODIE", price: 95, url: tfxb },
   ],
 };
 

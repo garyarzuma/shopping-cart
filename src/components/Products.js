@@ -7,7 +7,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1>Hello from Products</h1>
+      <h1>Product Catalog</h1>
       <div className="product-container">
         {state.carts.map((hoodie) => (
           <Hoodies
