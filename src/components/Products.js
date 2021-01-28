@@ -6,7 +6,7 @@ const Products = () => {
   const [state] = useContext(CartContext);
 
   return (
-    <div>
+    <div className="product-container">
       <h1>Hello from Products</h1>
       {state.carts.map((hoodie) => (
         <Hoodies

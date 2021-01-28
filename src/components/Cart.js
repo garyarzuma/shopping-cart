@@ -29,8 +29,8 @@ const Cart = () => {
 
   return (
     <div>
-      <h1>Hello from Cart</h1>
-      {cartArray}
+      <h1>Shopping Cart</h1>
+      <div className="cart-container">{cartArray}</div>
       {checkEmptyCart() && (
         <h2 className="empty-cart">Oops! Your cart is empty!</h2>
       )}

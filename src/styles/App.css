@@ -43,3 +43,14 @@ a:visited {
   width: 150px;
   height: auto;
 }
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hoodie-image {
+  width: 400px;
+  height: 400px;
+}

@@ -17,7 +17,7 @@ const Hoodies = (props) => {
   };
 
   return (
-    <div>
+    <div className="hoodies">
       <img src={props.imgSrc} alt={props.name} className="hoodie-image"></img>
       <div className="hoodie-name">{props.name}</div>
       <div className="hoodie-price">${props.price}</div>

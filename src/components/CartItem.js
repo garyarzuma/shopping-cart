@@ -12,7 +12,7 @@ const CartItem = (props) => {
   };
 
   return (
-    <div>
+    <div className="cartitem">
       <img className="small-img" src={props.url} alt={props.name} />
       <div className="cartitem-name">
         {props.name} x{props.qty}
