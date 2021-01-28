@@ -27,7 +27,7 @@ const Nav = () => {
         </Link>
         <Link to="/cart">
           <li>
-            <span>Checkout</span>
+            <span>Shopping Cart</span>
             <div className="cart-number">{totalQty}</div>
           </li>
         </Link>

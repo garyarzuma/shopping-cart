@@ -38,3 +38,8 @@ a:visited {
   margin-left: 5px;
   text-decoration: none;
 }
+
+.small-img {
+  width: 150px;
+  height: auto;
+}

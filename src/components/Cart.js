@@ -8,7 +8,13 @@ const Cart = () => {
   const cartArray = state.carts.map((cartItem) => {
     if (cartItem.qty > 0) {
       return (
-        <CartItem key={cartItem.name} name={cartItem.name} qty={cartItem.qty} />
+        <CartItem
+          key={cartItem.name}
+          name={cartItem.name}
+          qty={cartItem.qty}
+          url={cartItem.url}
+          price={cartItem.price}
+        />
       );
     }
   });
