@@ -14,8 +14,8 @@ const Routes = () => {
           <Nav />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/products" component={Products} />
-            <Route path="/cart" component={Cart} />
+            <Route path="/products" exact component={Products} />
+            <Route path="/cart" exact component={Cart} />
           </Switch>
         </div>
       </BrowserRouter>
