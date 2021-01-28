@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/cart-context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   const [totalQty, setTotalQty] = useState(0);
