@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.6307aca5.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.8d34f4bf.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.8d34f4bf.chunk.js.map",
+    "main.css": "/shopping-cart/static/css/main.cefe7d86.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.fe64f688.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.fe64f688.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.b56c1ee8.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b56c1ee8.js.map",
-    "static/js/2.65270fc5.chunk.js": "/shopping-cart/static/js/2.65270fc5.chunk.js",
-    "static/js/2.65270fc5.chunk.js.map": "/shopping-cart/static/js/2.65270fc5.chunk.js.map",
+    "static/js/2.c853ac97.chunk.js": "/shopping-cart/static/js/2.c853ac97.chunk.js",
+    "static/js/2.c853ac97.chunk.js.map": "/shopping-cart/static/js/2.c853ac97.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "static/css/main.6307aca5.chunk.css.map": "/shopping-cart/static/css/main.6307aca5.chunk.css.map",
-    "static/js/2.65270fc5.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.65270fc5.chunk.js.LICENSE.txt",
+    "static/css/main.cefe7d86.chunk.css.map": "/shopping-cart/static/css/main.cefe7d86.chunk.css.map",
+    "static/js/2.c853ac97.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.c853ac97.chunk.js.LICENSE.txt",
     "static/media/bubblegum-block-hoodie.3a09b524.jpg": "/shopping-cart/static/media/bubblegum-block-hoodie.3a09b524.jpg",
-    "static/media/color-block-hoodie.a167314b.jpg": "/shopping-cart/static/media/color-block-hoodie.a167314b.jpg"
+    "static/media/color-block-hoodie.a167314b.jpg": "/shopping-cart/static/media/color-block-hoodie.a167314b.jpg",
+    "static/media/gingham-colorblock-hoodie.f0aa248a.jpg": "/shopping-cart/static/media/gingham-colorblock-hoodie.f0aa248a.jpg",
+    "static/media/patchwork-knit-zip-up.157404fc.jpg": "/shopping-cart/static/media/patchwork-knit-zip-up.157404fc.jpg",
+    "static/media/puffy-paint-hoodie.436b564f.jpg": "/shopping-cart/static/media/puffy-paint-hoodie.436b564f.jpg",
+    "static/media/the-big-ass-chenille-hoodie.61c0c0f1.jpg": "/shopping-cart/static/media/the-big-ass-chenille-hoodie.61c0c0f1.jpg",
+    "static/media/three-panel-hoodie.6443965f.jpg": "/shopping-cart/static/media/three-panel-hoodie.6443965f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b56c1ee8.js",
-    "static/js/2.65270fc5.chunk.js",
-    "static/css/main.6307aca5.chunk.css",
-    "static/js/main.8d34f4bf.chunk.js"
+    "static/js/2.c853ac97.chunk.js",
+    "static/css/main.cefe7d86.chunk.css",
+    "static/js/main.fe64f688.chunk.js"
   ]
 }
