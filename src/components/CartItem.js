@@ -13,7 +13,7 @@ const CartItem = (props) => {
 
   return (
     <div>
-      <img class="small-img" src={props.url} alt={props.name} />
+      <img className="small-img" src={props.url} alt={props.name} />
       <div className="cartitem-name">
         {props.name} x{props.qty}
       </div>

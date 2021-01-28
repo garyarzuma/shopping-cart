@@ -16,8 +16,8 @@ const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_CART": //This is not great because Reducers need to be Pure...
       state.carts.forEach((element, index) => {
-        if (element.name === action.payload) {
-          tempCart[index].qty++;
+        if (element.name === action.payload.name) {
+          tempCart[index].qty += action.payload.qty;
         }
       });
       return {
