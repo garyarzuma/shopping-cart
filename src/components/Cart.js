@@ -17,11 +17,23 @@ const Cart = () => {
         />
       );
     }
+    return null;
   });
+
+  const checkEmptyCart = () => {
+    for (let i = 0; i < cartArray.length; i++) {
+      if (cartArray[i] !== null) return false;
+    }
+    return true;
+  };
+
   return (
     <div>
       <h1>Hello from Cart</h1>
       {cartArray}
+      {checkEmptyCart() && (
+        <h2 className="empty-cart">Oops! Your cart is empty!</h2>
+      )}
     </div>
   );
 };
