@@ -12,9 +12,9 @@ const initialState = {
 };
 
 const reducer = (state, action) => {
+  let tempCart = state.carts;
   switch (action.type) {
     case "ADD_CART": //This is not great because Reducers need to be Pure...
-      let tempCart = state.carts;
       state.carts.forEach((element, index) => {
         if (element.name === action.payload) {
           tempCart[index].qty++;
@@ -24,8 +24,13 @@ const reducer = (state, action) => {
         carts: tempCart,
       };
     case "DEL_CART":
+      state.carts.forEach((element, index) => {
+        if (element.name === action.payload) {
+          tempCart[index].qty = 0;
+        }
+      });
       return {
-        carts: state.carts.filter((cart) => cart.name !== action.payload),
+        carts: tempCart,
       };
     default:
       throw new Error();
