@@ -13,9 +13,9 @@ const Routes = () => {
         <div className="App">
           <Nav />
           <Switch>
-            <Route path="/home" exact component={Home} />
-            <Route path="/products" exact component={Products} />
-            <Route path="/cart" exact component={Cart} />
+            <Route path="/shopping-cart/" exact component={Home} />
+            <Route path="/shopping-cart/products" exact component={Products} />
+            <Route path="/shopping-cart/cart" exact component={Cart} />
           </Switch>
         </div>
       </BrowserRouter>

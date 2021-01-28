@@ -19,13 +19,13 @@ const Nav = () => {
     <nav>
       <h3>Logo</h3>
       <ul className="nav-links">
-        <Link to="/home">
+        <Link to="/shopping-cart">
           <li>Home</li>
         </Link>
-        <Link to="/products">
+        <Link to="/shopping-cart/products">
           <li>Products</li>
         </Link>
-        <Link to="/cart">
+        <Link to="/shopping-cart/cart">
           <li>
             <span>Shopping Cart</span>
             <div className="cart-number">{totalQty}</div>
