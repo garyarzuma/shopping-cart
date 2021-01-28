@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/cart-context";
 import CartItem from "./CartItem";
+import emptyCartImg from "../images/empty-cart.jpg";
 
 const Cart = () => {
   const [state] = useContext(CartContext);
@@ -32,7 +33,14 @@ const Cart = () => {
       <h1>Shopping Cart</h1>
       <div className="cart-container">{cartArray}</div>
       {checkEmptyCart() && (
-        <h2 className="empty-cart">Oops! Your cart is empty!</h2>
+        <div className="empty-cart-container">
+          <h2 className="empty-cart">Oops! Your cart is empty!</h2>
+          <img
+            src={emptyCartImg}
+            alt={"Pretend a Sad Bear Sits here"}
+            className="empty-img"
+          />
+        </div>
       )}
     </div>
   );
