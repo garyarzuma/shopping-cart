@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.7cc727ca.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.6cb82d10.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.6cb82d10.chunk.js.map",
+    "main.css": "/shopping-cart/static/css/main.e84cdec2.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.b8e96d34.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.b8e96d34.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.b56c1ee8.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b56c1ee8.js.map",
-    "static/js/2.18944c31.chunk.js": "/shopping-cart/static/js/2.18944c31.chunk.js",
-    "static/js/2.18944c31.chunk.js.map": "/shopping-cart/static/js/2.18944c31.chunk.js.map",
+    "static/js/2.a0a9bfb6.chunk.js": "/shopping-cart/static/js/2.a0a9bfb6.chunk.js",
+    "static/js/2.a0a9bfb6.chunk.js.map": "/shopping-cart/static/js/2.a0a9bfb6.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "static/css/main.7cc727ca.chunk.css.map": "/shopping-cart/static/css/main.7cc727ca.chunk.css.map",
-    "static/js/2.18944c31.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.18944c31.chunk.js.LICENSE.txt",
+    "static/css/main.e84cdec2.chunk.css.map": "/shopping-cart/static/css/main.e84cdec2.chunk.css.map",
+    "static/js/2.a0a9bfb6.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.a0a9bfb6.chunk.js.LICENSE.txt",
     "static/media/bubblegum-block-hoodie.3a09b524.jpg": "/shopping-cart/static/media/bubblegum-block-hoodie.3a09b524.jpg",
     "static/media/color-block-hoodie.a167314b.jpg": "/shopping-cart/static/media/color-block-hoodie.a167314b.jpg",
     "static/media/empty-cart.7ad13bff.jpg": "/shopping-cart/static/media/empty-cart.7ad13bff.jpg",
     "static/media/gingham-colorblock-hoodie.f0aa248a.jpg": "/shopping-cart/static/media/gingham-colorblock-hoodie.f0aa248a.jpg",
+    "static/media/homepagePic.5372f4bd.jpg": "/shopping-cart/static/media/homepagePic.5372f4bd.jpg",
     "static/media/patchwork-knit-zip-up.157404fc.jpg": "/shopping-cart/static/media/patchwork-knit-zip-up.157404fc.jpg",
     "static/media/puffy-paint-hoodie.436b564f.jpg": "/shopping-cart/static/media/puffy-paint-hoodie.436b564f.jpg",
     "static/media/the-big-ass-chenille-hoodie.61c0c0f1.jpg": "/shopping-cart/static/media/the-big-ass-chenille-hoodie.61c0c0f1.jpg",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b56c1ee8.js",
-    "static/js/2.18944c31.chunk.js",
-    "static/css/main.7cc727ca.chunk.css",
-    "static/js/main.6cb82d10.chunk.js"
+    "static/js/2.a0a9bfb6.chunk.js",
+    "static/css/main.e84cdec2.chunk.css",
+    "static/js/main.b8e96d34.chunk.js"
   ]
 }
