@@ -26,10 +26,10 @@ Date Completed: 1/28/2020
 -Gary Arzumanyan
 
 Homepage
-![Sample Screenshot 1](/images/cart-page-sample-shopping-cart.png)
+![Sample Screenshot 1](src/images/cart-page-sample-shopping-cart.png)
 
 Products Page
-![Sample Screenshot 2](images/products-page-sample-shopping-cart.png)
+![Sample Screenshot 2](/src/images/products-page-sample-shopping-cart.png)
 
 Shopping Cart Page
 ![Sample Screenshot 3](https://raw.githubusercontent.com/garyarzuma/shopping-cart/main/src/images/cart-page-sample-shopping-cart.PNG)
