@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# shopping-cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A multi-page e-commerce website clone of the Teddy Fresh clothing line done using React, Context API, and React Router. Images were taken from Teddy Fresh and this is for education purposes only....dont come after me H3.
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
+    -Multiple webpages for a fun home screen welcome, products page of beautiful hoodies, and shopping cart to see what goods you will soon get. Checkout feature coming soon!
+    -Add Hoodies to your cart and specify the exact quantity to add.
+    -Delete items from you cart if you get buyers remorse!
 
-### `npm start`
+Demonstrated Skills:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    -Focues on the Context API of React to control the main state of the shopping. All components derive the shopping cart state from this to avoid needless and messy passing of props between components.
+    -Uses React Router to control the links and flow of multiple webpages in the site.
+    -Uses React Hooks like useState, useReducer, and useEffect to handle initialization and life cycle methods.
+    -Uses the create-react-app to start the backbone of this project.
+    -Uses React.js to handle all of the frontend using states, props and components with function based components.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Future Ways to Improve:
 
-### `npm test`
+    -Add a checkout button and integrate a paypal payment system. Don't actually scam people though...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Overall project time: ~20 hours
+Date Completed: 1/28/2020
 
-### `npm run build`
+-Gary Arzumanyan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Homepage
+![Sample Screenshot 1](/images/cart-page-sample-shopping-cart.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Products Page
+![Sample Screenshot 2](/images/products-page-sample-shopping-cart.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Shopping Cart Page
+![Sample Screenshot 3](/images/cart-page-sample-shopping-cart.PNG)
