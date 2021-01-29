@@ -1,45 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Futura, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(88, 88, 88);
 }
-.App {
+
+.fancy-text {
+  color: black;
+  font: 1000 80px "Cookie", Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 .home {
-  background-image: url(https://i.imgur.com/gleoXL6.jpg);
   background-position-x: center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  padding-top: 90px;
+
   position: absolute;
   left: 0;
   z-index: -1;
   top: 0;
 }
+.welcome {
+  padding-top: 90px;
+}
 
 .home-container {
   display: flex;
   justify-content: space-around;
-  height: 100%;
+  align-content: center;
+  height: 70vh;
+  flex-flow: wrap;
+  font-size: 70px;
 }
 
 h1 {
   margin-left: 5%;
+  color: black;
 }
 
 h2 {
   text-align: center;
+  color: black;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
+  min-height: 100px;
   background-color: rgba(0, 0, 0, 0.151);
   color: black;
   z-index: 1;
