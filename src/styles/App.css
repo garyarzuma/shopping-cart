@@ -6,18 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.App {
+}
 .home {
-  background-image: url(https://source.unsplash.com/OZ2PtmqXckk/1600x900);
+  background-image: url(https://i.imgur.com/gleoXL6.jpg);
   background-position-x: center;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+  padding-top: 90px;
   position: absolute;
   left: 0;
   z-index: -1;
   top: 0;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
 }
 
 h1 {
@@ -33,7 +40,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-
+  background-color: rgba(0, 0, 0, 0.151);
   color: black;
   z-index: 1;
 }
@@ -70,6 +77,8 @@ a:visited {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 10%;
+  padding-bottom: 10%;
 }
 
 .hoodie-image {
