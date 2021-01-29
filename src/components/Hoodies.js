@@ -19,22 +19,24 @@ const Hoodies = (props) => {
   return (
     <div className="hoodies">
       <img src={props.imgSrc} alt={props.name} className="hoodie-image"></img>
-      <div className="hoodie-name">{props.name}</div>
-      <div className="hoodie-price">${props.price}</div>
 
-      <div>
-        <label htmlFor="qty-1">Qty: </label>
-        <input
-          type="number"
-          name="qty-1"
-          className="qty"
-          value={qty}
-          onChange={handleChange}
-        />
+      <div class="hoodies-container">
+        <div className="hoodie-name">{props.name}</div>
+        <div className="hoodie-price">${props.price}</div>
+        <div>
+          <label htmlFor="qty-1">Qty: </label>
+          <input
+            type="number"
+            name="qty-1"
+            className="qty"
+            value={qty}
+            onChange={handleChange}
+          />
+          <button className="add-cart-btn" onClick={addToCart}>
+            Add to Cart
+          </button>
+        </div>
       </div>
-      <button className="add-cart-btn" onClick={addToCart}>
-        Add to Cart
-      </button>
     </div>
   );
 };

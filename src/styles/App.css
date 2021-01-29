@@ -21,6 +21,26 @@ html {
   min-height: 100%;
 }
 
+button {
+  font-family: Futura, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  width: 13em;
+}
+
+input {
+  border: none;
+  width: 2.5em;
+  color: rgb(88, 88, 88);
+}
+
 .home {
   background-position-x: center;
   background-size: cover;
@@ -33,7 +53,7 @@ html {
   top: 0;
 }
 .welcome {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 .home-container {
@@ -104,6 +124,24 @@ a:visited {
 .hoodie-image {
   width: 400px;
   height: 400px;
+}
+.hoodies-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+
+.hoodie-name,
+.hoodie-price {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.hoodies {
+  font-size: 14px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .empty-cart-container {
