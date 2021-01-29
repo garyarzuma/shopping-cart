@@ -29,7 +29,7 @@ Homepage
 ![Sample Screenshot 1](/images/cart-page-sample-shopping-cart.PNG)
 
 Products Page
-![Sample Screenshot 2](/images/products-page-sample-shopping-cart.PNG)
+![Sample Screenshot 2](images/products-page-sample-shopping-cart.PNG)
 
 Shopping Cart Page
-![Sample Screenshot 3](/images/cart-page-sample-shopping-cart.PNG)
+![Sample Screenshot 3](./images/cart-page-sample-shopping-cart.PNG)
