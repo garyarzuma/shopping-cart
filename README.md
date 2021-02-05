@@ -21,7 +21,7 @@ Future Ways to Improve:
     -Add a checkout button and integrate a paypal payment system. Don't actually scam people though...
 
 Overall project time: ~20 hours
-Date Completed: 1/28/2020
+Date Completed: 1/28/2021
 
 -Gary Arzumanyan
 
